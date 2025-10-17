@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/appointment
+    username: postgres
+    password: 123
+  application:
+    name: appointment-service
+
+server:
+  port: 8082
